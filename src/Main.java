@@ -7,6 +7,8 @@ public class Main
     {
         public static void main(String[] args)
             {
+//                Scanner scanner = new Scanner(System.in);
+
                 Task1 task1 = new Task1();
                 task1.printAllTest(new double[] {30.0, 10000.1, 12.5, 99.99, 0.0, -23.45, -4.5, -129.675});
 
@@ -14,8 +16,7 @@ public class Main
 //                System.out.println(task2.testPow());
 
 //                Task3 task3 = new Task3();
-//                Scanner scanner = new java.util.Scanner(System.in);
-//
+
 //                System.out.print("Введите количество чисел n: ");
 //                int n = scanner.nextInt();
 //
@@ -38,7 +39,6 @@ public class Main
 //                    } else
 //                    {
 //                        System.out.println("Введите дату (формат: dd.MM.yyyy HH:mm):");
-//                        Scanner scanner = new Scanner(System.in);
 //                        String input = scanner.nextLine();
 //
 //                        String result = calculator.calculateTimeLeft(input);
