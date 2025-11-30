@@ -1,5 +1,5 @@
-import java.time.LocalDate;
 import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Task4
     {
-        private LocalDate date;
+        private final LocalDate date;
 
         public Task4(LocalDate date)
             {

@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Task3
     {
-        private Random random = new Random();
+        private final Random random = new Random();
 
         public int[] creatNumArray(int size)
             {

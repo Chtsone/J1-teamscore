@@ -9,4 +9,9 @@ public class Task2
                 BigInteger bigInteger = BigInteger.valueOf(a).pow(b);
                 return bigInteger.toString().length();
             }
+
+        void testPowPrint()
+            {
+                System.out.println(testPow());
+            }
     }

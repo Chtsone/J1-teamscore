@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class Task1
     {
 
-
         long[] testRound(double[] numbers)
             {
                 long[] res = Arrays.stream(numbers).mapToLong(Math::round).toArray();
