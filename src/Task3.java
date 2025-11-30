@@ -14,7 +14,6 @@ public class Task3
 
         public int findSeries(int[] numbers)
             {
-
                 int maxSeriesLength = 0;
                 int currentSeriesLength = 0;
                 String currentSign = "0";
